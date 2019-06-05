@@ -1,0 +1,16 @@
+.profilepicdiv{
+    height:200px;
+    width:200px;
+    background: url(./profilepic.jpeg);
+}
+.profilepicdiv #inputs{
+    opacity: 0;
+    transform: translateY(150px);
+}
+
+.profilepicdiv #inputs:hover{
+    opacity: 1;
+}
+.bufferdiv{
+  height:110px;
+}
