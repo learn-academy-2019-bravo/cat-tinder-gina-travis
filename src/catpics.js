@@ -14,9 +14,9 @@ class Catpics extends Component {
     <div className = "catpicpage">
         <div className = "buffer"></div>
         <h1>Welcome to the Cat Gallery</h1>
-        <img id = "catpic" src = "cat1.jpeg"></img>
-        <img id = "catpic" src = "cat2.jpeg"></img>
-        <img id = "catpic" src = "cat3.jpeg"></img>
+        <img alt = "it's a cat" id = "catpic" src = "cat1.jpeg"></img>
+        <img alt = "also a cat" id = "catpic" src = "cat2.jpeg"></img>
+        <img alt = "another cat" id = "catpic" src = "cat3.jpeg"></img>
     </div>
       )
     }

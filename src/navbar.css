@@ -1,0 +1,22 @@
+.navbar{
+  background-color: grey;
+  position: fixed;
+  overflow: hidden;
+  height: 75px;
+  top: 0;
+  width: 100%;
+  opacity: 0.4;
+  padding:10px;
+  text-align: left;
+  z-index: 2;
+}
+nav a{
+    color: #fff;
+    text-decoration: none;
+    padding: 25px;
+    display: inline-block;
+}
+.navbar:hover{
+  opacity: 1;
+  z-index: 5;
+}
